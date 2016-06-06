@@ -1,0 +1,419 @@
+
+Removing data scheme.
+
+Creating data scheme.
+
+
+
+... create oracle scheme TMTDATA0102
+... grants to created scheme TMTDATA0102
+
+Data scheme objects installation.
+*************************************************************************
+
+
+**********************************************
+G R A N T S   F O R   P A R U S   O B J E C T S
+
+... create synonym "TMTDATA0102.PRS_COMPANIES"
+... create synonym "TMTDATA0102.PRS_DAYS_TYPES"
+... create synonym "TMTDATA0102.PRS_DEPARTMENTS"
+... create synonym "TMTDATA0102.PRS_DUTIES"
+... create synonym "TMTDATA0102.PRS_DUTIES_DAYS"
+... create synonym "TMTDATA0102.PRS_DUTIES_HIST"
+... create synonym "TMTDATA0102.PRS_DUTIES_HOURS"
+... create synonym "TMTDATA0102.PRS_DUTIES_TYPES"
+... create synonym "TMTDATA0102.PRS_EMPLOYEES"
+... create synonym "TMTDATA0102.PRS_ENPERIOD"
+... create synonym "TMTDATA0102.PRS_HOURS_TYPES"
+... create synonym "TMTDATA0102.PRS_LEGAL_PERSONS"
+... create synonym "TMTDATA0102.PRS_P_CLNPSPFMWD_DELETE"
+... create synonym "TMTDATA0102.PRS_P_CLNPSPFMWD_INSERT"
+... create synonym "TMTDATA0102.PRS_P_CLNPSPFMWD_UPDATE"
+... create synonym "TMTDATA0102.PRS_P_CLNPSPFMWH_DELETE"
+... create synonym "TMTDATA0102.PRS_P_CLNPSPFMWH_INSERT"
+... create synonym "TMTDATA0102.PRS_P_CLNPSPFMWH_UPDATE"
+... create synonym "TMTDATA0102.PRS_PERSONS"
+... create synonym "TMTDATA0102.PRS_PKG_CLNPSPFMWD"
+... create synonym "TMTDATA0102.PRS_POSTS"
+... create synonym "TMTDATA0102.PRS_SLSCHEDULE"
+... create synonym "TMTDATA0102.PRS_WORKDAYS"
+... create synonym "TMTDATA0102.PRS_WORKDAYSTR"
+... grant on "PARUS.COMPANIES"
+... grant on "PARUS.SLDAYSTYPE"
+... grant on "PARUS.INS_DEPARTMENT"
+... grant on "PARUS.CLNPSPFM"
+... grant on "PARUS.CLNPSPFMWD"
+... grant on "PARUS.CLNPSPFMHS"
+... grant on "PARUS.CLNPSPFMWH"
+... grant on "PARUS.CLNPSPFMTYPES"
+... grant on "PARUS.CLNPERSONS"
+... grant on "PARUS.ENPERIOD"
+... grant on "PARUS.SL_HOURS_TYPES"
+... grant on "PARUS.JURPERSONS"
+... grant on "PARUS.P_CLNPSPFMWD_BASE_DELETE"
+... grant on "PARUS.P_CLNPSPFMWD_BASE_INSERT"
+... grant on "PARUS.P_CLNPSPFMWD_BASE_UPDATE"
+... grant on "PARUS.P_CLNPSPFMWH_BASE_DELETE"
+... grant on "PARUS.P_CLNPSPFMWH_BASE_INSERT"
+... grant on "PARUS.P_CLNPSPFMWH_BASE_UPDATE"
+... grant on "PARUS.AGNLIST"
+... grant on "PARUS.PKG_CLNPSPFMWD"
+... grant on "PARUS.CLNPSDEP"
+... grant on "PARUS.SLSCHEDULE"
+... grant on "PARUS.WORKDAYS"
+... grant on "PARUS.WORKDAYSTR"
+
+**********************************************
+S E Q U E N C E S
+
+
+**********************************************
+T A B L E S
+
+... creating table "COLLECTIONS_TBL"
+... creating constraint "CLCT_PK"
+... creating constraint "CLCT_CATNO_UK"
+
+... creating table "DEPTS_PROPERTIES_TBL"
+... creating constraint "DEPTS_PROPS_PK"
+
+... creating table "HOLIDAYS_SCHEDULES_TBL"
+... creating constraint "HLSCH_PK"
+... creating constraint "HLSCH_YEAR_UK"
+
+... creating table "HOLISCHED_SPECS_DATA_TBL"
+... creating constraint "HLSPDT_PK"
+... creating constraint "HLSPDT_BEG_DATE_UK"
+
+... creating table "HOLISCHED_SPECS_TBL"
+... creating constraint "HLSP_PK"
+
+... creating table "MILK_COST2_TBL"
+... creating constraint "MCST2_PK"
+... creating index "MCST2_MONTH_YEAR"
+... creating index "MCST2_YEAR_MONTH"
+
+... creating table "MILK_DEPT_REGISTER_TBL"
+... creating constraint "MDREG_PK"
+... creating constraint "MDREG_PK"
+... creating index "MDREG_YEAR_MONTH"
+
+... creating table "MILK_DEPT_REGISTER2_TBL"
+... creating constraint "MDREG2_PK"
+... creating constraint "MDREG2_YEAR_MONTH_UK"
+... creating index "MDREG2_YEAR_MONTH"
+
+... creating table "MILK_DEPT_SPECS_TBL"
+... creating constraint "MDSP_PK"
+... creating index "MDSP_YEAR_MONTH"
+
+... creating table "MILK_DEPT_SPECS2_TBL"
+... creating constraint "MDSP2_PK"
+... creating index "MDSP2_YEAR_MONTH"
+
+... creating table "MILK_ENT_REGISTER_TBL"
+... creating constraint "MEREG_PK"
+... creating constraint "MEREG_UK"
+... creating index "MEREG_YEAR_MONTH"
+
+... creating table "TIMETABLES_SPECS_DAYS_TBL"
+... creating constraint "TMSPD_PK"
+... creating constraint "TMSPD_UK"
+
+... creating table "TIMETABLES_SPECS_HOURS_TBL"
+... creating constraint "TMSPH_PK"
+... creating constraint "TMSPH_UK"
+
+... creating table "TIMETABLES_SPECS_TBL"
+... creating index "TMSP_EMP"
+... creating index "TMSP_HIST"
+... creating constraint "TMSP_PK"
+... creating constraint "TMSP_UK"
+
+... creating table "TIMETABLES_TBL"
+... creating index "TM_COMPANY"
+... creating index "TM_DEPT"
+... creating index "TM_MY"
+... creating constraint "TM_PK"
+... creating constraint "TM_UK"
+... creating constraint "TM_TYPE_CHK"
+
+... creating table "TLOG"
+... creating constraint "TLOG_PK"
+
+... creating table "TLOGLEVEL"
+... creating constraint "TLOGLEVEL_PK"
+
+... creating table "USERS_DEPTS_TBL"
+... creating index "USDPT_COMPANY"
+... creating index "USDPT_DEPT"
+... creating constraint "USDPT_PK"
+
+... creating table "USERS_TBL"
+... creating constraint "USR_PK"
+... creating constraint "USR_UNAME_UK"
+... creating constraint "USR_IS_ACCOUNTER"
+... creating constraint "USR_IS_ADMIN"
+... creating constraint "USR_IS_TIMEKEEPER"
+
+... creating table "WORKDAYS_TBL"
+... creating constraint "WD_PK"
+... creating constraint "WD_WORKDAYS_CHK"
+... creating constraint "WD_WORK_MONTH_CHK"
+
+
+**********************************************
+F O R E I G N  K E Y S
+
+... creating foreign keys constraints for "DEPTS_PROPERTIES_TBL"
+... creating index "DEPTS_PROPS_DEPT"
+... creating constraint "DEPTS_PROPS_DEPT_FK"
+
+... creating foreign keys constraints for "HOLIDAYS_SCHEDULES_TBL"
+... creating index "HLSCH_COMPANY"
+... creating constraint "HLSCH_COMPANY_FK"
+... creating constraint "HLSCH_DEPT_FK"
+
+... creating foreign keys constraints for "HOLISCHED_SPECS_DATA_TBL"
+... creating index "HLSP_SPEC"
+... creating constraint "HLSP_SPEC_FK"
+
+... creating foreign keys constraints for "HOLISCHED_SPECS_TBL"
+... creating index "HLSP_SCHEDULE"
+... creating index "HLSP_EMP"
+... creating constraint "HLSP_SCHEDULE_FK"
+... creating constraint "HLSP_EMP_FK"
+... creating constraint "HLSP_POST_FK"
+
+... creating foreign keys constraints for "MILK_DEPT_REGISTER_TBL"
+... creating index "MDREG_DEPT"
+... creating index "MDREG_ENT_REGISTER"
+... creating constraint "MDREG_DEPT_FK"
+... creating constraint "MDREG_ENT_REGISTER_FK"
+
+... creating foreign keys constraints for "MILK_DEPT_REGISTER2_TBL"
+... creating index "MDREG2_DEPT"
+... creating constraint "MDREG2_DEPT_FK"
+
+... creating foreign keys constraints for "MILK_DEPT_SPECS_TBL"
+... creating index "MDSP_EMP"
+... creating constraint "MDSP_EMP_FK"
+... creating constraint "MDSP_EMP_POST_FK"
+... creating constraint "MDSP_MLKTBL_FK"
+
+... creating foreign keys constraints for "MILK_DEPT_SPECS2_TBL"
+... creating index "MDSP2_EMP"
+... creating constraint "MDSP2_EMP_FK"
+... creating constraint "MDSP2_EMP_POST_FK"
+... creating constraint "MDSP2_MLKTBL_FK"
+
+... creating foreign keys constraints for "TIMETABLES_SPECS_DAYS_TBL"
+... creating index "TMSPD_DAY_TYPE"
+... creating constraint "TMSPD_SPEC_FK"
+
+... creating foreign keys constraints for "TIMETABLES_SPECS_HOURS_TBL"
+... creating index "TMSPH_HOURS_TYPE"
+... creating constraint "TMSPH_SPEC_FK"
+
+... creating foreign keys constraints for "TIMETABLES_SPECS_TBL"
+... creating index "TMSP_TIMETABLE"
+... creating constraint "TMSP_TIMNETABLE_FK"
+
+
+**********************************************
+F U N C T I O N S
+
+
+**********************************************
+V I E W S
+
+... creating view "COMPANIES_TBL"
+No errors.
+... creating view "DAYS_TYPES_TBL"
+No errors.
+... creating view "DAYS_TYPES"
+No errors.
+... creating view "DEPARTMENTS_TBL"
+No errors.
+... creating view "DUTIES_HIST_TBL"
+No errors.
+... creating view "DUTIES_TBL"
+No errors.
+... creating view "DUTIES_TYPES_TBL"
+No errors.
+... creating view "EMPLOYEES_TBL"
+No errors.
+... creating view "HOURS_TYPES_TBL"
+No errors.
+... creating view "LOG_LEVELS"
+No errors.
+... creating view "PERSONS_TBL"
+No errors.
+... creating view "POSTS_TBL"
+No errors.
+... creating view "SPEC_DAYS_DIVERGENCE"
+No errors.
+... creating view "SPEC_HOURS_DIVERGENCE"
+No errors.
+... creating view "TIMETABLE_DAYS_DIVERGENCE"
+No errors.
+... creating view "TIMETABLE_HOURS_DIVERGENCE"
+No errors.
+... creating view "USERS"
+No errors.
+... creating view "USERS_DEPTS"
+No errors.
+... creating view "VLOG"
+No errors.
+
+**********************************************
+P A C K A G E   S P E C S
+
+... creating package spec "PLOGPARAM"
+No errors.
+... creating package spec "PLOG"
+No errors.
+... creating package spec "PLOG_INTERFACE"
+No errors.
+... creating package spec "PLOG_OUT_ALERT"
+No errors.
+... creating package spec "PLOG_OUT_DBMS_OUTPUT"
+No errors.
+... creating package spec "PLOG_OUT_SESSION"
+No errors.
+... creating package spec "PLOG_OUT_TLOG"
+No errors.
+... creating package spec "PLOG_OUT_TRACE"
+No errors.
+... creating package spec "STD"
+No errors.
+... creating package spec "UTILS"
+No errors.
+... creating package spec "I_APPINFO"
+No errors.
+... creating package spec "I_DEPTS_PROPERTIES"
+No errors.
+... creating package spec "I_HOLIDAYS_SCHEDULES"
+No errors.
+... creating package spec "I_MILK"
+No errors.
+... creating package spec "I_MILK2"
+No errors.
+... creating package spec "I_PRS_DATA"
+No errors.
+... creating package spec "I_TIMETABLES"
+No errors.
+... creating package spec "I_TIMETABLES_SPECS"
+No errors.
+... creating package spec "I_TIMETABLES_SPECS_DAYS"
+No errors.
+... creating package spec "I_TIMETABLES_SPECS_HOURS"
+No errors.
+... creating package spec "I_USERS"
+No errors.
+... creating package spec "I_USERS_DEPTS"
+No errors.
+... creating package spec "I_WORKDAYS"
+No errors.
+
+**********************************************
+P A C K A G E   B O D I E S
+
+... creating package "STD"
+No errors.
+... creating package "UTILS"
+No errors.
+... creating package "I_APPINFO"
+No errors.
+... creating package "I_DEPTS_PROPERTIES"
+No errors.
+... creating package "I_HOLIDAYS_SCHEDULES"
+No errors.
+... creating package "I_MILK"
+No errors.
+... creating package "I_MILK2"
+No errors.
+... creating package "I_PRS_DATA"
+No errors.
+... creating package "I_TIMETABLES"
+No errors.
+... creating package "I_TIMETABLES_SPECS"
+No errors.
+... creating package "I_TIMETABLES_SPECS_DAYS"
+No errors.
+... creating package "I_TIMETABLES_SPECS_HOURS"
+No errors.
+... creating package "I_USERS"
+No errors.
+... creating package "I_USERS_DEPTS"
+No errors.
+... creating package "I_WORKDAYS"
+No errors.
+... creating package "PLOG"
+No errors.
+... creating package "PLOG_INTERFACE"
+No errors.
+... creating package "PLOG_OUT_ALERT"
+No errors.
+... creating package "PLOG_OUT_DBMS_OUTPUT"
+No errors.
+... creating package "PLOG_OUT_SESSION"
+No errors.
+... creating package "PLOG_OUT_TLOG"
+No errors.
+... creating package "PLOG_OUT_TRACE"
+No errors.
+... creating package "PLOGPARAM"
+No errors.
+
+**********************************************
+T R I G G E R S
+
+... creating trigger "DEPTS_PROPERTIES_BIU1"
+No errors.
+... creating trigger "HOLIDAYS_SCHEDULES_BIU1"
+No errors.
+... creating trigger "HOLISCHED_SPECS_BIU1"
+No errors.
+... creating trigger "HOLISCHED_SPECS_DATA_BIU1"
+No errors.
+... creating trigger "MILK_DEPT_REGISTER_BIU1"
+No errors.
+... creating trigger "MILK_COST2_BIU1"
+No errors.
+... creating trigger "MILK_DEPT_REGISTER2_BIU1"
+No errors.
+... creating trigger "MILK_DEPT_SPECS_BIU1"
+No errors.
+... creating trigger "MILK_DEPT_SPECS2_BIU1"
+No errors.
+... creating trigger "MILK_ENT_REGISTER_BIU1"
+No errors.
+... creating trigger "TIMETABLES_BIU1"
+No errors.
+... creating trigger "TIMETABLES_SPECS_BIU1"
+No errors.
+... creating trigger "TIMETABLES_SPECS_DAYS_BIU1"
+No errors.
+... creating trigger "TIMETABLES_SPECS_HOURS_BIU1"
+No errors.
+... creating trigger "USERS_BIU1"
+No errors.
+... creating trigger "USERS_DEPTS_BIU1"
+No errors.
+
+**********************************************
+I N I T I A L I Z A T I O N
+
+
+**********************************************
+T E S T  D A T A  L O A D I N G
+
+
+**********************************************
+E N D   I N S T A L L A T I O N
+
+
+timing for: Installation data scheme
+Elapsed: 00:00:09.00

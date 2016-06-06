@@ -1,0 +1,307 @@
+
+Removing application scheme.
+
+Creating application scheme.
+
+
+
+... create oracle scheme TMTAPP0102
+... grants to created scheme TMTAPP0102
+
+Application scheme objects installation.
+*************************************************************************
+
+
+**********************************************
+G R A N T S   T O   D A T A   O B J E C T S
+
+... create synonym "TMTAPP0102.COLLECTIONS_TBL"
+... create synonym "TMTAPP0102.COMPANIES_TBL"
+... create synonym "TMTAPP0102.DAYS_TYPES_TBL"
+... create synonym "TMTAPP0102.DEPARTMENTS_TBL"
+... create synonym "TMTAPP0102.DEPTS_PROPERTIES_TBL"
+... create synonym "TMTAPP0102.DUTIES_HIST_TBL"
+... create synonym "TMTAPP0102.DUTIES_TBL"
+... create synonym "TMTAPP0102.DUTIES_TYPES_TBL"
+... create synonym "TMTAPP0102.EMPLOYEES_TBL"
+... create synonym "TMTAPP0102.HOLIDAYS_SCHEDULES_TBL"
+... create synonym "TMTAPP0102.HOLISCHED_SPECS_DATA_TBL"
+... create synonym "TMTAPP0102.HOLISCHED_SPECS_TBL"
+... create synonym "TMTAPP0102.HOURS_TYPES_TBL"
+... create synonym "TMTAPP0102.I_APPINFO"
+... create synonym "TMTAPP0102.I_DEPTS_PROPERTIES"
+... create synonym "TMTAPP0102.I_HOLIDAYS_SCHEDULES"
+... create synonym "TMTAPP0102.I_MILK"
+... create synonym "TMTAPP0102.I_MILK2"
+... create synonym "TMTAPP0102.I_PRS_DATA"
+... create synonym "TMTAPP0102.I_TIMETABLES"
+... create synonym "TMTAPP0102.I_TIMETABLES_SPECS"
+... create synonym "TMTAPP0102.I_TIMETABLES_SPECS_DAYS"
+... create synonym "TMTAPP0102.I_TIMETABLES_SPECS_HOURS"
+... create synonym "TMTAPP0102.I_USERS"
+... create synonym "TMTAPP0102.I_USERS_DEPTS"
+... create synonym "TMTAPP0102.I_WORKDAYS"
+... create synonym "TMTAPP0102.LOG_LEVELS"
+... create synonym "TMTAPP0102.MILK_COST2_TBL"
+... create synonym "TMTAPP0102.MILK_DEPT_REGISTER_TBL"
+... create synonym "TMTAPP0102.MILK_DEPT_REGISTER2_TBL"
+... create synonym "TMTAPP0102.MILK_DEPT_SPECS_TBL"
+... create synonym "TMTAPP0102.MILK_DEPT_SPECS2_TBL"
+... create synonym "TMTAPP0102.MILK_ENT_REGISTER_TBL"
+... create synonym "TMTAPP0102.PERSONS_TBL"
+... create synonym "TMTAPP0102.PLOG"
+... create synonym "TMTAPP0102.PLOGPARAM"
+... create synonym "TMTAPP0102.POSTS_TBL"
+... create synonym "TMTAPP0102.SPEC_DAYS_DIVERGENCE"
+... create synonym "TMTAPP0102.SPEC_HOURS_DIVERGENCE"
+... create synonym "TMTAPP0102.STD"
+... create synonym "TMTAPP0102.TIMETABLE_DAYS_DIVERGENCE"
+... create synonym "TMTAPP0102.TIMETABLE_HOURS_DIVERGENCE"
+... create synonym "TMTAPP0102.TIMETABLES_SPECS_DAYS_TBL"
+... create synonym "TMTAPP0102.TIMETABLES_SPECS_HOURS_TBL"
+... create synonym "TMTAPP0102.TIMETABLES_SPECS_TBL"
+... create synonym "TMTAPP0102.TIMETABLES_TBL"
+... create synonym "TMTAPP0102.USERS"
+... create synonym "TMTAPP0102.USERS_DEPTS_TBL"
+... create synonym "TMTAPP0102.UTILS"
+... create synonym "TMTAPP0102.VLOG"
+... create synonym "TMTAPP0102.WORKDAYS_TBL"
+... create synonym "TMTAPP0102.WORKDAYS_TBL"
+... grant on "TMTDATA0102.COLLECTIONS_TBL"
+... grant on "TMTDATA0102.COMPANIES_TBL"
+... grant on "TMTDATA0102.DAYS_TYPES_TBL"
+... grant on "TMTDATA0102.DEPARTMENTS_TBL"
+... grant on "TMTDATA0102.DEPTS_PROPERTIES_TBL"
+... grant on "TMTDATA0102.DUTIES_HIST_TBL"
+... grant on "TMTDATA0102.DUTIES_TBL"
+... grant on "TMTDATA0102.DUTIES_TYPES_TBL"
+... grant on "TMTDATA0102.EMPLOYEES_TBL"
+... grant on "TMTDATA0102.HOLIDAYS_SCHEDULES_TBL"
+... grant on "TMTDATA0102.HOLISCHED_SPECS_DATA_TBL"
+... grant on "TMTDATA0102.HOLISCHED_SPECS_TBL"
+... grant on "TMTDATA0102.HOURS_TYPES_TBL"
+... grant on "TMTDATA0102.I_APPINFO"
+... grant on "TMTDATA0102.I_DEPTS_PROPERTIES"
+... grant on "TMTDATA0102.I_HOLIDAYS_SCHEDULES"
+... grant on "TMTDATA0102.I_MILK"
+... grant on "TMTDATA0102.I_MILK2"
+... grant on "TMTDATA0102.I_PRS_DATA"
+... grant on "TMTDATA0102.I_TIMETABLES"
+... grant on "TMTDATA0102.I_TIMETABLES_SPECS"
+... grant on "TMTDATA0102.I_TIMETABLES_SPECS_DAYS"
+... grant on "TMTDATA0102.I_TIMETABLES_SPECS_HOURS"
+... grant on "TMTDATA0102.I_USERS"
+... grant on "TMTDATA0102.I_USERS_DEPTS"
+... grant on "TMTDATA0102.I_WORKDAYS"
+... grant on "TMTDATA0102.LOG_LEVELS"
+... grant on "TMTDATA0102.MILK_COST2_TBL"
+... grant on "TMTDATA0102.MILK_DEPT_REGISTER_TBL"
+... grant on "TMTDATA0102.MILK_DEPT_REGISTER2_TBL"
+... grant on "TMTDATA0102.MILK_DEPT_SPECS_TBL"
+... grant on "TMTDATA0102.MILK_DEPT_SPECS2_TBL"
+... grant on "TMTDATA0102.MILK_ENT_REGISTER_TBL"
+... grant on "TMTDATA0102.PERSONS_TBL"
+... grant on "TMTDATA0102.PLOG"
+... grant on "TMTDATA0102.PLOGPARAM"
+... grant on "TMTDATA0102.POSTS_TBL"
+... grant on "TMTDATA0102.SPEC_DAYS_DIVERGENCE"
+... grant on "TMTDATA0102.SPEC_HOURS_DIVERGENCE"
+... grant on "TMTDATA0102.STD"
+... grant on "TMTDATA0102.TIMETABLE_DAYS_DIVERGENCE"
+... grant on "TMTDATA0102.TIMETABLE_HOURS_DIVERGENCE"
+... grant on "TMTDATA0102.TIMETABLES_SPECS_DAYS_TBL"
+... grant on "TMTDATA0102.TIMETABLES_SPECS_HOURS_TBL"
+... grant on "TMTDATA0102.TIMETABLES_SPECS_TBL"
+... grant on "TMTDATA0102.TIMETABLES_TBL"
+... grant on "TMTDATA0102.USERS"
+... grant on "TMTDATA0102.USERS_DEPTS_TBL"
+... grant on "TMTDATA0102.UTILS"
+... grant on "TMTDATA0102.VLOG"
+... grant on "TMTDATA0102.WORKDAYS_TBL"
+
+**********************************************
+T A B L E S
+
+
+**********************************************
+P A C K A G E   S P E C S
+
+... creating package spec "MILK2_PKG"
+No errors.
+... creating package spec "PAGE23"
+No errors.
+... creating package spec "PAGE24"
+No errors.
+... creating package spec "PAGE26"
+No errors.
+... creating package spec "PAGE27"
+No errors.
+... creating package spec "PAGE28"
+No errors.
+... creating package spec "PAGE29"
+No errors.
+... creating package spec "PAGE30"
+No errors.
+... creating package spec "PAGE31"
+No errors.
+... creating package spec "PAGE32"
+No errors.
+... creating package spec "PAGE33"
+No errors.
+... creating package spec "PAGE34"
+No errors.
+... creating package spec "PAGE35"
+No errors.
+... creating package spec "PKG_RPT_TIMETABLES"
+No errors.
+... creating package spec "PKG_TIMETABLES"
+No errors.
+... creating package spec "PKG_USERS"
+No errors.
+
+**********************************************
+V I E W S
+
+... creating view "USERSLIST"
+No errors.
+... creating view "COMPANIES"
+No errors.
+... creating view "DEPARTMENTS"
+No errors.
+... creating view "USERS_DEPTS"
+No errors.
+... creating view "ALL_HOLIDAYS_SCHEDULES"
+No errors.
+... creating view "ALL_MILK"
+No errors.
+... creating view "MILK_SPECS"
+No errors.
+... creating view "MILK_SPECS2"
+No errors.
+... creating view "ALL_MILK_ORDERS"
+No errors.
+... creating view "ALL_MILK_ORDERS2"
+No errors.
+... creating view "ALL_MILK2"
+No errors.
+... creating view "ALL_TIMETABLES_LIST"
+No errors.
+... creating view "ALL_TIMETABLES"
+No errors.
+... creating view "DAYS_TYPES"
+No errors.
+... creating view "DEPT_COST"
+No errors.
+... creating view "DEPTS_PROPERTIES"
+No errors.
+... creating view "HOLISCHED_SPECS"
+No errors.
+... creating view "HOLISCHED_SPECS_DATA"
+No errors.
+... creating view "HOURS_TYPES"
+No errors.
+... creating view "MILK_COST2"
+No errors.
+... creating view "MILK_ENT_REGISTERS"
+No errors.
+... creating view "MONTHS_LIST"
+No errors.
+... creating view "MY_DEPARTMENTS"
+No errors.
+... creating view "MY_HOLIDAYS_SCHEDULES"
+No errors.
+... creating view "MY_MILK"
+No errors.
+... creating view "MY_MILK2"
+No errors.
+... creating view "MY_TIMETABLES_LIST"
+No errors.
+... creating view "MY_TIMETABLES"
+No errors.
+... creating view "SPEC_DAYS_DIVS"
+No errors.
+... creating view "SPEC_HOURS_DIVS"
+No errors.
+... creating view "TIMETABLES_SPECS_DATA"
+No errors.
+... creating view "TIMETABLES_SPECS_DAYS"
+No errors.
+... creating view "TIMETABLES_SPECS_HOURS"
+No errors.
+... creating view "TIMETABLES_SPECS_HOURS_BY_SPEC"
+No errors.
+... creating view "TIMETABLES_SPECS"
+No errors.
+... creating view "RPT_TIMETABLES"
+No errors.
+... creating view "RPT_TIMETABLES_SPECS"
+No errors.
+... creating view "ABSENT_EMP_IN_REGISTER"
+No errors.
+... creating view "ABSENT_EMP_IN_REGISTER2"
+No errors.
+... creating view "TT_SP_DAYS"
+No errors.
+... creating view "TT_SP_HRS_BY_SPEC"
+No errors.
+... creating view "WORKDAYS"
+No errors.
+
+**********************************************
+F U N C T I O N S
+
+
+**********************************************
+P R O C E D U R E S
+
+
+**********************************************
+P A C K A G E   B O D I E S
+
+... creating package "MILK2_PKG"
+No errors.
+... creating package "PAGE23"
+No errors.
+... creating package "PAGE24"
+No errors.
+... creating package "PAGE26"
+No errors.
+... creating package "PAGE27"
+No errors.
+... creating package "PAGE28"
+No errors.
+... creating package "PAGE29"
+No errors.
+... creating package "PAGE30"
+No errors.
+... creating package "PAGE31"
+No errors.
+... creating package "PAGE32"
+No errors.
+... creating package "PAGE33"
+No errors.
+... creating package "PAGE34"
+No errors.
+... creating package "PAGE35"
+No errors.
+... creating package "PKG_RPT_TIMETABLES"
+No errors.
+... creating package "PKG_TIMETABLES"
+No errors.
+... creating package "PKG_USERS"
+No errors.
+
+**********************************************
+T R I G G E R S
+
+
+**********************************************
+S C R I P T S
+
+
+**********************************************
+E N D   I N S T A L L A T I O N
+
+
+timing for: Installation application scheme
+Elapsed: 00:00:03.57
