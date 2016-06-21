@@ -21,5 +21,5 @@ select
     ,t.submitted    as submitted
     ,t.accepted     as accepted
   from timetables_tbl t
- where t.company_id in (select ud.company_id from users_depts ud where ud.username = V('APP_USER'))
+ where t.company_id in (select company_id from users where username = V('APP_USER'))
 ;

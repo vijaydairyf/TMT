@@ -79,7 +79,7 @@ create or replace synonym ^APP_SCHEME..MILK_COST2_TBL for ^DATA_SCHEME..MILK_COS
 prompt ... create synonym "^APP_SCHEME..MILK_DEPT_REGISTER_TBL"
 create or replace synonym ^APP_SCHEME..MILK_DEPT_REGISTER_TBL for ^DATA_SCHEME..MILK_DEPT_REGISTER_TBL;
 prompt ... create synonym "^APP_SCHEME..MILK_DEPT_REGISTER2_TBL"
-create or replace synonym ^APP_SCHEME..MILK_DEPT_REGISTER2_TBL for ^DATA_SCHEME..MILK_DEPT_REGISTER_TBL;
+create or replace synonym ^APP_SCHEME..MILK_DEPT_REGISTER2_TBL for ^DATA_SCHEME..MILK_DEPT_REGISTER2_TBL;
 prompt ... create synonym "^APP_SCHEME..MILK_DEPT_SPECS_TBL"
 create or replace synonym ^APP_SCHEME..MILK_DEPT_SPECS_TBL for ^DATA_SCHEME..MILK_DEPT_SPECS_TBL;
 prompt ... create synonym "^APP_SCHEME..MILK_DEPT_SPECS2_TBL"
@@ -120,8 +120,6 @@ prompt ... create synonym "^APP_SCHEME..UTILS"
 create or replace synonym ^APP_SCHEME..UTILS for ^DATA_SCHEME..UTILS;
 prompt ... create synonym "^APP_SCHEME..VLOG"
 create or replace synonym ^APP_SCHEME..VLOG for ^DATA_SCHEME..VLOG;
-prompt ... create synonym "^APP_SCHEME..WORKDAYS_TBL"
-create or replace synonym ^APP_SCHEME..WORKDAYS_TBL for ^DATA_SCHEME..WORKDAYS_TBL;
 prompt ... create synonym "^APP_SCHEME..WORKDAYS_TBL"
 create or replace synonym ^APP_SCHEME..WORKDAYS_TBL for ^DATA_SCHEME..WORKDAYS_TBL;
 
